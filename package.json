@@ -1,0 +1,16 @@
+{
+  "name": "8ai-chat",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/seed-app-config.mjs",
+    "test:rls": "node scripts/rls-checks.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.46.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
